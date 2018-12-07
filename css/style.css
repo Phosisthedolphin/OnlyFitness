@@ -401,10 +401,45 @@ footer ul li span{
     margin-left: 10px;
 }
 
-/* <==========================> */
-/* <====== For Printing ======> */
-/* <==========================> */
+/* <====== Privacy Policy page ======> */
+.policy {
+    margin-bottom: 60px;
+}
 
+.policy h1, .policy h2, .policy h3, .policy h4 {
+    color: lightslategray;
+    margin: 40px 0 10px;
+}
+
+.policy h1 {
+    font-size: 36px;
+}
+
+.policy h2 {
+    font-size: 28px;
+}
+
+.policy h3 {
+    font-size: 24px;
+}
+
+.policy h4 {
+    font-size: 20px;
+}
+
+.policy ul {
+    color: white;
+}
+
+.policy li {
+    margin-bottom: 10px;
+}
+
+.policy p {
+    font-size: 16px;
+}
+
+/* <====== CSS For Printing ======> */
 @media print {
 	/* Make color changes explicit */
 	
@@ -443,6 +478,14 @@ footer ul li span{
 	img {
 		page-break-inside: avoid; /* Prevents images from
 		being split up */
+    }
+
+    main {
+        display: block;
+    }
+
+    .card-container {
+        page-break-inside: avoid;
     }
 	
 	a[href^=http]:after {
