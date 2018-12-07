@@ -10,9 +10,8 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 main {
-    /* background: rgb(41, 49, 61); */
+    background: rgb(41, 49, 61);
     /* background: rgb(62, 90, 133); */
-    background: #555;
 }
 .container{
     width: 80%;
@@ -32,7 +31,7 @@ header {
     width: 100%;
     height: 100px;
     /* background: #2C3534; */
-    background: #3C4544;
+    background: #222;
     color: #FFFFFF;
 }
 .icon {
@@ -226,6 +225,7 @@ main {
 }
 
 .intro h1 {
+    color: lightslategray;
     font-size: 34px;
 }
 
@@ -239,7 +239,8 @@ main {
     display: flex;
     justify-content: center;
     margin: 50px;
-    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
 
 .card{   
@@ -250,7 +251,7 @@ main {
     align-items: center;
     box-shadow: 3px 7px 20px 3px #222;
     /* background: #2C3534; */
-    background: #3C4544;
+    background: #222;
     max-width: 400px;
     min-width: 230px;
     transition: all .2s ease-in-out;   
@@ -271,7 +272,7 @@ main {
 
 .decs {
   /* background: #2C3534; */
-  background: #3C4544;
+  background: #222;
   width: 100%;
 }
 
@@ -287,6 +288,7 @@ main {
     margin: 0px;
     padding: 0px 10px 20px 10px;
     font-size: 16px;
+    line-height: 24px;
 }
 @media screen and (max-width: 800px) {
     .card-container {
