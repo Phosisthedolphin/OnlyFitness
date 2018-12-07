@@ -1,0 +1,306 @@
+* {
+    
+    box-sizing: border-box;
+}
+p {
+    color: white;
+}
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+main {
+    background: rgb(41, 49, 61);
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0px 15px;
+    max-width: 1000px;
+    display: flex;
+    align-items: stretch;   
+}
+
+
+/* ||||||||----------- ** 
+ Header Section ** ------------------
+----||||||||||||||||||| */
+
+header {
+    width: 100%;
+    height: 100px;
+    background: #2C3534;
+    color: #FFFFFF;
+}
+.icon {
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    margin: auto;
+}
+.icon i { 
+    color: rgb(255, 255, 255);
+    margin-bottom: 7px;
+}
+header ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;     
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.search-bar {
+    display: flex;   
+    align-items: center;
+}
+.hamburger-icon {
+    display: none;
+}
+@media screen and (max-width: 720px) {
+    .hamburger-icon {
+        display: flex;
+        align-items: center;
+    }
+    header ul {
+       display: none;     
+    }
+    .container{
+        width: 100%;
+    }
+}
+
+
+/* ||||||||----------- ** 
+ Hero Section ** ------------------
+----||||||||||||||||||| */
+
+.hero {
+    width: 100%;
+    height: 500px;  
+    background: linear-gradient(60deg, rgb(0, 0, 0), transparent), url('../img/strap.jpg');
+    background-size: cover;
+    background-position: 70% 80%;
+    display: flex;    
+}
+.hero-contact {
+    width: 100%;
+    height: 500px;  
+    background: linear-gradient(60deg, rgb(0, 0, 0), transparent), url('../img/contact.jpg');
+    background-size: cover;
+    background-position: 70% 80%;
+    display: flex;    
+}
+.hero-membership {
+    width: 100%;
+    height: 500px;  
+    background: linear-gradient(60deg, rgb(0, 0, 0), transparent), url('../img/memberships.jpg');
+    background-size: cover;
+    background-position: 70% 80%;
+    display: flex;    
+}
+.hero-weight {
+    width: 100%;
+    height: 500px;  
+    background: linear-gradient(60deg, rgb(0, 0, 0), transparent), url('../img/weight-hero.jpg');
+    background-size: cover;
+    background-position: 70% 80%;
+    display: flex;    
+}
+.hero-cardio {
+    width: 100%;
+    height: 500px;  
+    background: linear-gradient(60deg, rgb(0, 0, 0), transparent), url('../img/cardio-hero.jpg');
+    background-size: cover;
+    background-position: 70% 80%;
+    display: flex;    
+}
+.hero-boot {
+    width: 100%;
+    height: 500px;  
+    background: linear-gradient(60deg, rgb(0, 0, 0), transparent), url('../img/boot-hero.jpg');
+    background-size: cover;
+    background-position: 20% 30%;
+    display: flex;    
+}
+
+
+.hero .container {        
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 80px;
+    color: rgb(255, 255, 255);   
+}
+.hero-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 80px;
+    margin-left: 150px;
+    color: rgb(255, 255, 255);   
+}
+
+.hero-inner p {   
+    margin-top: 0px;
+    width: 60%;
+    display: block;
+}
+.hero-contact p {
+    margin-top: 0px;
+    width: 60%;
+    display: block;
+}
+
+.hero-input-button{
+    display: flex;
+    margin-top: 10px;
+}
+
+.hero-input-button input{
+    font-size: 16px;
+    padding: 10px 8px;
+}
+
+.hero-input-button button{
+    font-size: 16px;
+    padding: 0px 15px;
+    margin: 0px;
+    background: rgb(0, 0, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 460px) {
+    .hero-inner p {        
+        display: none;
+    }
+    .hero-input-button{
+        flex-direction: column;
+    }
+    .hero-input-button button{
+        margin-top: 5px;
+        padding: 10px 15px;
+    }
+}
+
+
+/* ||||||||----------- ** 
+ Main Section ** ------------------
+----||||||||||||||||||| */
+
+.intro {
+    padding: 40px 60px 10px 60px;
+    margin: 0px 30px 0px 30px;
+}
+
+.intro h1 {
+    font-size: 34px;
+}
+
+.intro p {
+    font-size: 20px;
+}
+
+.card-container{     
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    margin-bottom: 0px;
+}
+
+.card{   
+    flex: 1;
+    margin: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 7px 20px 3px #222;
+    background: #2C3534;
+    max-width: 400px;
+    min-width: 230px;
+    transition: all .2s ease-in-out;
+    
+}
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card img {
+    width: 100%;
+    
+}
+
+.decs {
+  background: #2C3534;
+  width: 100%;
+}
+
+.decs h4 {
+    margin: 0px;
+    padding: 20px 10px 0px 10px;
+    font-size: 14px;
+}
+
+.decs p {
+    margin: 0px;
+    padding: 0px 10px 20px 10px;
+    font-size: 12px;
+}
+@media screen and (max-width: 800px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* ||||||||----------- **  
+Footer Section ** ------------------
+----||||||||||||||||||| */
+
+footer {
+    width: 100%;
+    padding: 15px 40px;
+    color: rgb(146, 145, 145);    
+    background: rgb(0, 0, 0);
+}
+
+footer h4 {
+    text-transform: uppercase;
+}
+
+footer ul {
+    padding-left: 10px;    
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer ul li i{
+    margin-bottom: 10px;
+}
+
+footer ul li span{
+    margin-left: 10px;
+}
