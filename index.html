@@ -9,6 +9,15 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/base.css">
         <title>Home Page</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130675204-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-130675204-1');
+        </script>
     </head>
     <body>
         <header>
@@ -23,7 +32,7 @@
                 <ul>
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="./memberships.html">Memberships</a></li>
-                    <li><a href="#">Classes/Bootcamps</a></li>
+                    <li><a href="./classesbootcamps.html">Classes/Bootcamps</a></li>
                     <li><a href="./contact.html">Contact</a></li>
                 </ul>            
                 <div class="search-bar">  
@@ -58,28 +67,34 @@
                 </p>
             </div>
             <div class="card-container">
-                <div class="card">
-                    <img src="img/intense.jpg" alt="cardio image">
-                    <div class="decs">
-                        <h4>Spartan Cardio</h4>
-                        <p>Kinetic cardio and endurance training. All intense, all the time.</p>
+                <a href="spartancardio.html">
+                    <div class="card">
+                        <img src="img/intense.jpg" alt="woman with lots of tattoos doing exercises with two standing bars">
+                        <div class="decs">
+                            <h4>Spartan Cardio</h4>
+                            <p>Kinetic cardio and endurance training. All intense, all the time.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <img src="img/weight.jpg" alt="cardio image">
-                    <div class="decs">
-                        <h4>Weight Training</h4>
-                        <p>No BS weight training sessions with professional instructors available 24/7.</p>
+                </a>
+                <a href="weighttraining.html">
+                    <div class="card">
+                        <img src="img/weight.jpg" alt="man with lots of arm tattoos about to lift a really heavy barbell">
+                        <div class="decs">
+                            <h4>Weight Training</h4>
+                            <p>No BS weight training sessions with professional instructors available 24/7.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <img src="img/rip.jpg" alt="cardio image">
-                    <div class="decs">
-                        <h4>Boot Camps</h4>
-                        <p>Rigorous, brutal weight training and cardio workshops with ascending goals.
-                        </p>
+                </a>
+                <a href='bootcamps.html'>
+                    <div class="card">
+                        <img src="img/rip.jpg" alt="muscular man wearing gray tank top fixing his wrist paddings">
+                        <div class="decs">
+                            <h4>Boot Camps</h4>
+                            <p>Rigorous, brutal weight training and cardio workshops with ascending goals.
+                            </p>
+                        </div>
                     </div>
-                </div>            
+                </a>       
             </div>
         </main>
 
@@ -109,13 +124,31 @@
                 <div class="column small-12 medium-6 large-3">
                     <h4>follow</h4>
                     <ul>
-                        <li><i class="fab fa-facebook-square fa-lg"></i><span>facebook</span></li>
-                        <li><i class="fab fa-instagram fa-lg"></i><span>instagram</span></li>
-                        <li><i class="fab fa-twitter-square fa-lg"></i><span>twitter</span></li>
-                        <li><i class="fab fa-youtube-square fa-lg"></i><span>youtube</span></li>
+                        <li>
+                            <a href='https://www.facebook.com/' target='_blank'>
+                                <i class="fab fa-facebook-square fa-lg"></i><span>facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href='https://www.instagram.com/' target='_blank'>
+                                <i class="fab fa-instagram fa-lg"></i><span>instagram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href='https://twitter.com/' target='_blank'>
+                                <i class="fab fa-twitter-square fa-lg"></i><span>twitter</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href='https://www.youtube.com/' target='_blank'>
+                                <i class="fab fa-youtube-square fa-lg"></i><span>youtube</span>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
-        </footer>    
+        </footer> 
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c0e8c017c4af0d2"></script>
     </body>
 </html>
