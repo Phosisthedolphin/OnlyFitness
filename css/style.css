@@ -300,6 +300,10 @@ main {
     margin-bottom: 50px;
 }
 
+.card-container a {
+    text-decoration: none;
+}
+
 .card{   
     flex: 1;
     margin: 50px 20px;
