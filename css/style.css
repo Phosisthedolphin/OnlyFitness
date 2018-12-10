@@ -216,6 +216,10 @@ header ul li a:hover{
     .d-flex-row {
         flex-direction: column;
     }
+    .hero-input-button #mc-embedded-subscribe-us{
+        margin-top: 0;
+        padding: 13px 15px;
+    }
 }
 
 .hero-contact p {
@@ -257,10 +261,7 @@ header ul li a:hover{
     .hero-input-button{
         flex-direction: column;
     }
-    .hero-input-button #mc-embedded-subscribe-us{
-        margin-top: 0;
-        padding: 13px 15px;
-    }
+    
 }
 
 /* Mail chimp sign-up form */
