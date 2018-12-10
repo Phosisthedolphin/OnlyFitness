@@ -135,7 +135,7 @@ header ul li a:hover{
 .hero {
     width: 100%;
     height: 500px;  
-    background: linear-gradient(60deg, rgb(0, 0, 0), transparent), url('../img/gym-traning-hero.jpg');
+    background: linear-gradient(60deg, rgb(0, 0, 0), transparent), url('../img/gym-training-hero.jpg');
     background-size: cover;
     background-position: 70% 80%;
     display: flex;    
