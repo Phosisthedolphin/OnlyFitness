@@ -135,7 +135,7 @@ header ul li a:hover{
 .hero {
     width: 100%;
     height: 500px;  
-    background: linear-gradient(60deg, rgb(0, 0, 0), transparent), url('../img/strap.jpg');
+    background: linear-gradient(60deg, rgb(0, 0, 0), transparent), url('../img/gym-traning-hero.jpg');
     background-size: cover;
     background-position: 70% 80%;
     display: flex;    
@@ -143,7 +143,7 @@ header ul li a:hover{
 .hero-contact {
     width: 100%;
     height: 500px;  
-    background: linear-gradient(60deg, rgb(0, 0, 0), transparent), url('../img/contact.jpg');
+    background: linear-gradient(60deg, rgb(0, 0, 0), transparent), url('../img/running-trainers-hero.jpg');
     background-size: cover;
     background-position: 70% 80%;
     display: flex;    
@@ -159,7 +159,7 @@ header ul li a:hover{
 .hero-weight {
     width: 100%;
     height: 500px;  
-    background: linear-gradient(60deg, rgb(0, 0, 0), transparent), url('../img/weight-hero.jpg');
+    background: linear-gradient(60deg, rgb(0, 0, 0), transparent), url('../img/weight-training-hero.jpg');
     background-size: cover;
     background-position: 70% 80%;
     display: flex;    
@@ -167,7 +167,7 @@ header ul li a:hover{
 .hero-cardio {
     width: 100%;
     height: 500px;  
-    background: linear-gradient(60deg, rgb(0, 0, 0), transparent), url('../img/cardio-hero.jpg');
+    background: linear-gradient(60deg, rgb(0, 0, 0), transparent), url('../img/cardio-jumping-hero.jpg');
     background-size: cover;
     background-position: 70% 80%;
     display: flex;    
