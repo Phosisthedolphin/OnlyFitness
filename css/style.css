@@ -232,7 +232,7 @@ header ul li a:hover{
     padding: 10px 8px;
 }
 
-.hero-input-button .button{
+.hero-input-button #mc-embedded-subscribe{
     font-size: 16px;
     padding: 13px 15px;
     margin: 17px 0 0 0;
@@ -246,9 +246,7 @@ header ul li a:hover{
 .hero-input-button button:hover {
     background: rgb(90,100,110);
 }
-#mc-embedded-subscribe {
-    margin: 0;
-}
+
 @media screen and (max-width: 460px) {
     .hero-inner p {        
         display: none;
