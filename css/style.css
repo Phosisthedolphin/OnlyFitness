@@ -20,7 +20,14 @@ main {
     display: flex;
     align-items: stretch;   
 }
-
+.d-flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.d-flex-row {
+    display: flex;
+    flex-direction: row;
+}
 
 /* ||||||||----------- ** 
  Header Section ** ------------------
@@ -216,6 +223,7 @@ header ul li a:hover{
 
 .hero-input-button{
     display: flex;
+    /* flex-direction: column; */
     margin-top: 10px;
 }
 
@@ -224,15 +232,14 @@ header ul li a:hover{
     padding: 10px 8px;
 }
 
-.hero-input-button button{
+.hero-input-button .button{
     font-size: 16px;
-    padding: 0px 15px;
-    margin: 0px;
+    padding: 13px 15px;
+    margin: 18px 0 0 0;
     background: rgb(41, 49, 61);
     border: none;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
-
     transition: 0.5s;
 }
 
