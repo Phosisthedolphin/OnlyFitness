@@ -52,6 +52,10 @@ header {
 }
 a.icon {
     text-decoration: none;
+    transition: 0.5s;
+}
+a.icon:hover{
+    background: rgb(90,100,110);
 }
 header ul {
     margin: 0;
@@ -228,6 +232,12 @@ header ul li a:hover{
     border: none;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
+
+    transition: 0.5s;
+}
+
+.hero-input-button button:hover {
+    background: rgb(90,100,110);
 }
 
 @media screen and (max-width: 460px) {
