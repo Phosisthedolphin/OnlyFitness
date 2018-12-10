@@ -258,7 +258,7 @@ header ul li a:hover{
         flex-direction: column;
     }
     .hero-input-button #mc-embedded-subscribe-us{
-        margin-top: 5px;
+        margin-top: 0;
         padding: 13px 15px;
     }
 }
