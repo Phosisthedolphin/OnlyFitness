@@ -213,6 +213,9 @@ header ul li a:hover{
         font-size: 16px;
         line-height: 26px;
     }
+    .d-flex-row {
+        flex-direction: column;
+    }
 }
 
 .hero-contact p {
