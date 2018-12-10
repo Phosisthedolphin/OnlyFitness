@@ -260,6 +260,30 @@ header ul li a:hover{
     }
 }
 
+/* Mail chimp sign-up form */
+#mc_embed_signup .mc-field-group {
+    clear: left;
+    position: relative;
+    width: 96%;
+    padding-bottom: 3%;
+    min-width: 250px;
+    margin-right: -50px;
+}
+
+#mc_embed_signup .button {
+    font-size: 16px;
+    padding: 13px 15px;
+    margin: 18px 0 0 0;
+    background: rgb(41, 49, 61);
+    border: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.hero-input-button button:hover {
+    background: rgb(90,100,110);
+}
 
 /* ||||||||----------- ** 
  Main Section ** ------------------
