@@ -20,7 +20,14 @@ main {
     display: flex;
     align-items: stretch;   
 }
-
+.d-flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.d-flex-row {
+    display: flex;
+    flex-direction: row;
+}
 
 /* ||||||||----------- ** 
  Header Section ** ------------------
@@ -128,7 +135,7 @@ header ul li a:hover{
 .hero {
     width: 100%;
     height: 500px;  
-    background: linear-gradient(60deg, rgb(0, 0, 0), transparent), url('../img/strap.jpg');
+    background: linear-gradient(60deg, rgb(0, 0, 0), transparent), url('../img/gym-training-hero.jpg');
     background-size: cover;
     background-position: 70% 80%;
     display: flex;    
@@ -136,7 +143,7 @@ header ul li a:hover{
 .hero-contact {
     width: 100%;
     height: 500px;  
-    background: linear-gradient(60deg, rgb(0, 0, 0), transparent), url('../img/contact.jpg');
+    background: linear-gradient(60deg, rgb(0, 0, 0), transparent), url('../img/running-trainers-hero.jpg');
     background-size: cover;
     background-position: 70% 80%;
     display: flex;    
@@ -144,7 +151,7 @@ header ul li a:hover{
 .hero-membership {
     width: 100%;
     height: 500px;  
-    background: linear-gradient(60deg, rgb(0, 0, 0), transparent), url('../img/memberships.jpg');
+    background: linear-gradient(60deg, rgb(0, 0, 0), transparent), url('../img/gym-memberships.jpg');
     background-size: cover;
     background-position: 70% 80%;
     display: flex;    
@@ -152,7 +159,7 @@ header ul li a:hover{
 .hero-weight {
     width: 100%;
     height: 500px;  
-    background: linear-gradient(60deg, rgb(0, 0, 0), transparent), url('../img/weight-hero.jpg');
+    background: linear-gradient(60deg, rgb(0, 0, 0), transparent), url('../img/weight-training-hero.jpg');
     background-size: cover;
     background-position: 70% 80%;
     display: flex;    
@@ -160,7 +167,7 @@ header ul li a:hover{
 .hero-cardio {
     width: 100%;
     height: 500px;  
-    background: linear-gradient(60deg, rgb(0, 0, 0), transparent), url('../img/cardio-hero.jpg');
+    background: linear-gradient(60deg, rgb(0, 0, 0), transparent), url('../img/cardio-jumping-hero.jpg');
     background-size: cover;
     background-position: 70% 80%;
     display: flex;    
@@ -168,7 +175,7 @@ header ul li a:hover{
 .hero-boot {
     width: 100%;
     height: 500px;  
-    background: linear-gradient(60deg, rgb(0, 0, 0), transparent), url('../img/boot-hero.jpg');
+    background: linear-gradient(60deg, rgb(0, 0, 0), transparent), url('../img/legs-workout-training.jpg');
     background-size: cover;
     background-position: 20% 30%;
     display: flex;    
@@ -206,6 +213,13 @@ header ul li a:hover{
         font-size: 16px;
         line-height: 26px;
     }
+    .d-flex-row {
+        flex-direction: column;
+    }
+    .hero-input-button #mc-embedded-subscribe-us{
+        margin-top: 0;
+        padding: 13px 15px;
+    }
 }
 
 .hero-contact p {
@@ -216,6 +230,7 @@ header ul li a:hover{
 
 .hero-input-button{
     display: flex;
+    /* flex-direction: column; */
     margin-top: 10px;
 }
 
@@ -224,15 +239,14 @@ header ul li a:hover{
     padding: 10px 8px;
 }
 
-.hero-input-button button{
+.hero-input-button #mc-embedded-subscribe-us{
     font-size: 16px;
-    padding: 0px 15px;
-    margin: 0px;
+    padding: 13px 15px;
+    margin: 18px 0 0 0;
     background: rgb(41, 49, 61);
     border: none;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
-
     transition: 0.5s;
 }
 
@@ -240,19 +254,25 @@ header ul li a:hover{
     background: rgb(90,100,110);
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 480px) {
     .hero-inner p {        
         display: none;
     }
     .hero-input-button{
         flex-direction: column;
     }
-    .hero-input-button button{
-        margin-top: 5px;
-        padding: 10px 15px;
-    }
+    
 }
 
+/* Mail chimp sign-up form */
+#mc_embed_signup .mc-field-group {
+    clear: left;
+    position: relative;
+    width: 96%;
+    padding-bottom: 3%;
+    min-width: 200px;
+    margin-right: -50px;
+}
 
 /* ||||||||----------- ** 
  Main Section ** ------------------
